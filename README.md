@@ -26,7 +26,7 @@ A sqlite database containing sample data used by OmniSnap for internal storage o
 
 - Add omnisnapdata.db to your wrapper resources.
 
-- Configure your wrapper with the following settings:
+- Configure your wrapper (config.xml) with the following settings:
 
   ServerOmnisWebUrl = ipaddress:omnis port
   
@@ -38,4 +38,4 @@ A sqlite database containing sample data used by OmniSnap for internal storage o
   
   ServerAppScafName = omnisnap
 
-Note, also remember to test the form jsSnap in the OmniSnap library to generate jsSnap.htm as used by the above.
+Note you need to test the form jsSnap in the OmniSnap library to generate jsSnap.htm to initially run online for testing and then used offline in the wrapper as specified in config.xml.
