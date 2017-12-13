@@ -1,0 +1,14 @@
+;  Enter your initialization code here
+
+Begin text block
+Text: {OmniSnap has been developed using the Omnis Studio SDK for deployment on mobile devices using the JavaScript wrapper application.} (Carriage return)
+Text: (Carriage return)
+Text: {Data is stored on the client device in a local database using the wrapper embedded SQLite support.} (Carriage return)
+Text: (Carriage return)
+Text: {Select the New button to begin data entry and either take photos on your device or select them from your camera roll.} (Carriage return)
+Text: (Carriage return)
+Text: {Once saved, a summary of the data is shown in the main list and may be edited or deleted.} (Carriage return)
+Text: (Carriage return)
+Text: {For more information about Omnis Studio, visit: www.omnis.net}
+End text block
+Get text block iAboutText

@@ -1,0 +1,3 @@
+On evClick
+	Calculate iJSFileUploadCol as 'iSqlRow.nat_image'
+	Do $cinst.$objs.fileControl.$action.$assign(kJSFileActionUpload)

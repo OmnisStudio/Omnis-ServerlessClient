@@ -1,0 +1,10 @@
+Do iDatalist.$definefromsqlclass('qNature')
+
+Do iTypeList.$define(iType)
+Do iTypeList.$add('Bird')
+Do iTypeList.$add('Flower')
+Do iTypeList.$add('Invertebrate')
+Do iTypeList.$add('Reptile')
+Do iTypeList.$add('Mammal')
+
+Do method $checkDatabase

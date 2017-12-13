@@ -1,0 +1,17 @@
+;  enable or disable buttons
+
+If pEnable
+	Calculate lFlag as iDatalist.$line>0
+	Calculate lFlag2 as kTrue
+Else
+	Calculate lFlag as kFalse
+	Calculate lFlag2 as kFalse
+End If
+
+Do $cinst.$objs.Edit.$enabled.$assign(lFlag)
+Do $cinst.$objs.Delete.$enabled.$assign(lFlag)
+
+Do $cinst.$objs.New.$enabled.$assign(lFlag2)
+Do $cinst.$objs.About.$enabled.$assign(lFlag2)
+
+Do $cinst.$objs.Save.$text.$assign(pick(iMode,'','Update','Insert'))

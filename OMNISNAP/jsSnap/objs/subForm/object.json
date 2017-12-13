@@ -1,0 +1,53 @@
+{
+	"ident": 1027,
+	"order": 26,
+	"objtype": "kSubwindow",
+	"properties": {
+		"alpha": 10,
+		"backalpha": 255,
+		"backcolor": "RGB(255,255,255)",
+		"bordercolor": "kColorDefault",
+		"classname": "jsAbout",
+		"cssclassname": "",
+		"dataname": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disablesystemfocus": false,
+		"effect": "kJSborderPlain",
+		"enabled": true,
+		"events": "",
+		"horzscroll": false,
+		"linestyle": 1,
+		"multipleclasses": false,
+		"objlink": 0,
+		"parameters": "",
+		"preventlayoutanimation": false,
+		"tooltip": "",
+		"userinfo": "",
+		"vertscroll": false,
+		"visible": false
+	},
+	"layout": {
+		"320": {
+			"left": 350,
+			"top": 100,
+			"width": 260,
+			"height": 291,
+			"dragborder": false,
+			"edgefloat": "kEFrightBottom",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"768": {
+			"left": 789,
+			"top": 395,
+			"width": 470,
+			"height": 400,
+			"dragborder": false,
+			"edgefloat": "kEFrightBottom",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}

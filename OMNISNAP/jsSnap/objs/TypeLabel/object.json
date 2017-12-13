@@ -1,0 +1,60 @@
+{
+	"ident": 1021,
+	"order": 20,
+	"objtype": "kComponent",
+	"componentlib": "jsLabel",
+	"componentctrl": "Label Object",
+	"properties": {
+		"alpha": 255,
+		"backalpha": 0,
+		"backcolor": "RGB(255,255,255)",
+		"contextmenu": "",
+		"cssclassname": "",
+		"dataname": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": true,
+		"dropmode": "kAcceptNone",
+		"enabled": false,
+		"events": "",
+		"fieldstyle": "",
+		"font": 1,
+		"fontsize": 10,
+		"fontstyle": "kPlain",
+		"objlink": 131075,
+		"preventlayoutanimation": false,
+		"text": "Type",
+		"textcolor": "kBlack",
+		"textishtml": false,
+		"tooltip": "",
+		"userinfo": "",
+		"vertcentertext": true,
+		"visible": true
+	},
+	"layout": {
+		"320": {
+			"left": 5,
+			"top": 160,
+			"width": 60,
+			"height": 25,
+			"align": "kLeftJst",
+			"dragborder": false,
+			"edgefloat": "kEFtopBottom",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"768": {
+			"left": 14,
+			"top": 252,
+			"width": 60,
+			"height": 25,
+			"align": "kRightJst",
+			"dragborder": false,
+			"edgefloat": "kEFnone",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}

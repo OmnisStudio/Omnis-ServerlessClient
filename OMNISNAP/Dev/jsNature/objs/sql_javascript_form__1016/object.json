@@ -1,0 +1,49 @@
+{
+	"ident": 1012,
+	"order": 12,
+	"objtype": "kComponent",
+	"componentlib": "jsLabel",
+	"componentctrl": "Label Object",
+	"properties": {
+		"align": "kRightJst",
+		"alpha": 255,
+		"backalpha": 255,
+		"backcolor": "kColorDefault",
+		"contextmenu": "",
+		"cssclassname": "",
+		"dataname": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": false,
+		"dropmode": "kAcceptNone",
+		"enabled": true,
+		"events": "",
+		"fieldstyle": "",
+		"font": 1,
+		"fontsize": 10,
+		"fontstyle": "kPlain",
+		"objlink": 0,
+		"preventlayoutanimation": false,
+		"text": "nat_type",
+		"textcolor": "kColorDefault",
+		"textishtml": false,
+		"tooltip": "",
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true
+	},
+	"screensizes": [
+		{
+			"name": "kSSZDesktop",
+			"left": 20,
+			"top": 251,
+			"width": 150,
+			"height": 25,
+			"edgefloat": "kEFnone",
+			"dragborder": false,
+			"errortextpos": "kJSErrorTextPosUnder"
+		}
+	]
+}

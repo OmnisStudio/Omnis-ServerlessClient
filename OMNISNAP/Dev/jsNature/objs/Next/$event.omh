@@ -1,0 +1,7 @@
+On evClick
+	Do iSqlRow.$fetch() Returns lStatus
+	If lStatus=kFetchFinished|lStatus=kFetchError
+		Do iSqlRow.$select()
+		Do iSqlRow.$fetch() Returns lStatus
+	End If
+	Calculate iOldRow as iSqlRow

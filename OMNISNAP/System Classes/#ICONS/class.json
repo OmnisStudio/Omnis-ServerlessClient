@@ -1,0 +1,94 @@
+{
+	"classtype": "kSystemtable",
+	"internalversion": 4,
+	"iconversion": 3,
+	"nextident": 11,
+	"properties": {
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2017-12-13 10:49:52",
+		"desc": "",
+		"external": false,
+		"moddate": "2014-02-19 11:44:52",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": "1"
+	},
+	"iconids": [
+		{
+			"iconid": 580005,
+			"pageid": 8,
+			"iconpos": 1,
+			"defaultsize": 1,
+			"flags": 0
+		},
+		{
+			"iconid": 580011,
+			"pageid": 11,
+			"iconpos": 1,
+			"defaultsize": 1,
+			"flags": 0
+		},
+		{
+			"iconid": 580010,
+			"pageid": 10,
+			"iconpos": 1,
+			"defaultsize": 1,
+			"flags": 0
+		}
+	],
+	"pages": [
+		{
+			"pageid": 8,
+			"name": "Tigerlogic",
+			"bitmapid": 5,
+			"flags": 1856
+		},
+		{
+			"pageid": 10,
+			"name": "Logo65",
+			"bitmapid": 1,
+			"flags": 1856
+		},
+		{
+			"pageid": 11,
+			"name": "Logo45",
+			"bitmapid": 2,
+			"flags": 1856
+		}
+	],
+	"bitmaps": [
+		{
+			"bitmapid": 1,
+			"solid": {
+				"$png": "solid1.png"
+			},
+			"alpha": {
+				"$png": "alpha1.png"
+			}
+		},
+		{
+			"bitmapid": 2,
+			"solid": {
+				"$png": "solid2.png"
+			},
+			"alpha": {
+				"$png": "alpha2.png"
+			}
+		},
+		{
+			"bitmapid": 3
+		},
+		{
+			"bitmapid": 4
+		},
+		{
+			"bitmapid": 5,
+			"solid": {
+				"$png": "solid5.png"
+			},
+			"alpha": {
+				"$png": "alpha5.png"
+			}
+		}
+	]
+}

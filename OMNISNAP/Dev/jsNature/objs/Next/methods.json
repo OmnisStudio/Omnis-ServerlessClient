@@ -1,0 +1,20 @@
+[
+	{
+		"name": "$event",
+		"ident": 0,
+		"order": 1,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lStatus",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	}
+]

@@ -1,0 +1,262 @@
+{
+	"classtype": "kRemoteForm",
+	"internalversion": 3,
+	"designtaskname": "rtMyTask",
+	"nextident": 1028,
+	"lastgroupident": 0,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iAboutLeft",
+			"order": 14,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"initval": "30"
+		},
+		{
+			"name": "iAboutOpen",
+			"order": 20,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"initval": "kFalse"
+		},
+		{
+			"name": "iAboutTop",
+			"order": 13,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"initval": "70"
+		},
+		{
+			"name": "iCacheList",
+			"order": 32,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iCreateTableID",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iDatalist",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iDeleteID",
+			"order": 30,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iDeviceImage",
+			"order": 28,
+			"type": "kBinary",
+			"subtype": 0,
+			"sublen": 100000000
+		},
+		{
+			"name": "iEmptyRow",
+			"order": 11,
+			"type": "kRow",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iImageID",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iInsertID",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iMode",
+			"order": 6,
+			"type": "kInteger",
+			"subtype": "kShortint",
+			"sublen": 0
+		},
+		{
+			"name": "iNat_Desc",
+			"order": 22,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iNat_GPS",
+			"order": 26,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iNat_ID",
+			"order": 21,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0
+		},
+		{
+			"name": "iNat_Image",
+			"order": 27,
+			"type": "kBinary",
+			"subtype": 0,
+			"sublen": 100000000
+		},
+		{
+			"name": "iNat_Title",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iNat_Type",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iOldRow",
+			"order": 25,
+			"type": "kRow",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iSelectCacheID",
+			"order": 31,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iSelectDataID",
+			"order": 23,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iSelectLastID",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iSelectTablesID",
+			"order": 17,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0
+		},
+		{
+			"name": "iTableList",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iType",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iTypeList",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iUpdateID",
+			"order": 29,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		}
+	],
+	"properties": {
+		"aligntogrid": false,
+		"alpha": 255,
+		"alwaysenabledobject": "",
+		"animatelayouttransitions": false,
+		"backalpha": 255,
+		"backcolor": "RGB(255,255,255)",
+		"backpattern": 35,
+		"cancelkeyobject": "",
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"contextmenu": "",
+		"createdate": "2017-12-13 10:50:22",
+		"currentlayoutbreakpoint": 320,
+		"defaultappearance": "kAppearanceiOS",
+		"desc": "",
+		"designshowmobiletitle": true,
+		"disabledefaultcontextmenu": false,
+		"editor": "",
+		"editordata": "",
+		"events": "evLayoutChanged",
+		"external": true,
+		"forecolor": "RGB(4,200,130)",
+		"horzgrid": 8,
+		"horzscroll": false,
+		"inheritedorder": 1,
+		"issupercomponent": false,
+		"layoutbreakpoints": "320,768",
+		"layouttype": "kLayoutTypeResponsive",
+		"left": 326,
+		"moddate": "2017-12-13 10:15:24",
+		"okkeyobject": "",
+		"serverlessclient": true,
+		"showascheckedout": false,
+		"showgrid": false,
+		"sizetogrid": false,
+		"startfield": 0,
+		"title": {
+			"type": 0,
+			"calc": "New remote form"
+		},
+		"top": 29,
+		"userinfo": "",
+		"version": "1",
+		"vertgrid": 8,
+		"vertscroll": false
+	},
+	"layout": {
+		"width": 1227,
+		"height": 725,
+		"320": {
+			"height": 480
+		},
+		"768": {
+			"height": 0
+		}
+	}
+}

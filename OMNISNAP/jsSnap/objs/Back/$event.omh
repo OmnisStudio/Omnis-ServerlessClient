@@ -1,0 +1,3 @@
+On evClick
+	;  Do method $showdetails (kFalse,kTrue)     ;; hide new\edit pane
+	Do $cinst.$objs.DataPane.$currentpage.$assign(1)

@@ -1,0 +1,86 @@
+[
+	{
+		"name": "nat_id",
+		"ident": 32001,
+		"order": 1,
+		"type": "kInteger",
+		"subtype": "k32bitint",
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "nat_title",
+		"ident": 32009,
+		"order": 2,
+		"type": "kCharacter",
+		"subtype": "kSimplechar",
+		"sublen": 1000,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": false,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "nat_desc",
+		"ident": 32002,
+		"order": 3,
+		"type": "kCharacter",
+		"subtype": "kSimplechar",
+		"sublen": 2000,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": false,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "nat_type",
+		"ident": 32010,
+		"order": 4,
+		"type": "kCharacter",
+		"subtype": "kSimplechar",
+		"sublen": 100,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": false,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "nat_gps",
+		"ident": 32005,
+		"order": 5,
+		"type": "kCharacter",
+		"subtype": "kSimplechar",
+		"sublen": 100,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": false,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "nat_image",
+		"ident": 32003,
+		"order": 6,
+		"type": "kBinary",
+		"subtype": 0,
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": false,
+			"userinfo": ""
+		}
+	}
+]

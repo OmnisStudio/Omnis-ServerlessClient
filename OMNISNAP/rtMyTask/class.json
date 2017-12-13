@@ -1,0 +1,45 @@
+{
+	"classtype": "kRemoteTask",
+	"internalversion": 3,
+	"nextident": 1,
+	"tvardefs": [
+		{
+			"name": "tJSFileBinData",
+			"order": 1,
+			"type": "kBinary",
+			"subtype": 0,
+			"sublen": 100000000
+		}
+	],
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+
+	],
+	"properties": {
+		"basehttpresponseheaders": "",
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2017-12-13 10:50:17",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"localtestdata": "",
+		"localtime": false,
+		"maxtime": 0,
+		"maxusers": 0,
+		"moddate": "2014-01-23 10:07:40",
+		"restful": false,
+		"restfulapiname": "",
+		"showascheckedout": false,
+		"stringtable": "",
+		"timeout": 0,
+		"userinfo": "",
+		"version": "1",
+		"webservice": ""
+	}
+}

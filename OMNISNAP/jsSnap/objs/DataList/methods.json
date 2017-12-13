@@ -1,0 +1,34 @@
+[
+	{
+		"name": "$event",
+		"ident": 0,
+		"order": 1,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lNewRow",
+				"order": 1,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "lRow",
+				"order": 2,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "oSql",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	}
+]

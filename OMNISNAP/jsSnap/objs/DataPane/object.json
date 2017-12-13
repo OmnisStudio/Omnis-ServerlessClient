@@ -1,0 +1,55 @@
+{
+	"ident": 1003,
+	"order": 3,
+	"objtype": "kPagedPane",
+	"properties": {
+		"alpha": 255,
+		"animatetransitions": true,
+		"autoscroll": false,
+		"backalpha": 0,
+		"backcolor": "kWhite",
+		"bordercolor": "RGB(4,180,150)",
+		"borderradius": "5",
+		"contextmenu": "",
+		"cssclassname": "",
+		"currentpage": 1,
+		"dataname": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disablesystemfocus": true,
+		"effect": "kJSborderPlain",
+		"enabled": true,
+		"events": "",
+		"linestyle": 1,
+		"objlink": 0,
+		"pagecount": 2,
+		"preventlayoutanimation": false,
+		"scrolltochangepage": false,
+		"tooltip": "",
+		"userinfo": "",
+		"visible": true
+	},
+	"layout": {
+		"320": {
+			"left": 2,
+			"top": 55,
+			"width": 316,
+			"height": 420,
+			"dragborder": false,
+			"edgefloat": "kEFrightBottom",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"768": {
+			"left": 15,
+			"top": 80,
+			"width": 740,
+			"height": 915,
+			"dragborder": false,
+			"edgefloat": "kEFrightBottom",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}

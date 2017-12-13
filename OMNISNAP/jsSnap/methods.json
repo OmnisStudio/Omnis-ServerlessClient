@@ -1,0 +1,261 @@
+[
+	{
+		"name": "$construct",
+		"ident": 0,
+		"order": 1,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destruct",
+		"ident": 1,
+		"order": 2,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$init",
+		"ident": 2,
+		"order": 3,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "config",
+				"order": 2,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "HostString",
+				"order": 5,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lNewRow",
+				"order": 7,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "lScreenSize",
+				"order": 8,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "oSql",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "Password",
+				"order": 4,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "row",
+				"order": 9,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "Timeout",
+				"order": 6,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "Username",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$event",
+		"ident": 3,
+		"order": 4,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$getdata",
+		"ident": 4,
+		"order": 5,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lRow",
+				"order": 2,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "lvar",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "oSql",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$sqldone",
+		"ident": 5,
+		"order": 6,
+		"clientexec": true,
+		"pvardefs": [
+			{
+				"name": "pID",
+				"order": 5,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			},
+			{
+				"name": "pList",
+				"order": 6,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0,
+				"param": 2
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "lCreateNames",
+				"order": 4,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lErrorCode",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lErrorText",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "oSql",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$checkdatabase",
+		"ident": 6,
+		"order": 7,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "oSql",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$enablebuttons",
+		"ident": 7,
+		"order": 8,
+		"clientexec": true,
+		"pvardefs": [
+			{
+				"name": "pEnable",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"initval": "kTrue"
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "lFlag",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lFlag2",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$closeabout",
+		"ident": 9,
+		"order": 10,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

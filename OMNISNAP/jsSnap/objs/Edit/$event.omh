@@ -1,0 +1,21 @@
+On evClick
+	Calculate iMode as 1     ;; Edit
+	
+	Calculate iNat_ID as iDatalist.C1
+	Calculate iNat_Title as iDatalist.C2
+	Calculate iNat_GPS as iDatalist.C3
+	
+	Calculate iNat_Desc as iDatalist.C4
+	Calculate iNat_Type as iDatalist.C5
+	
+	;  fetch image data separately
+	Calculate iNat_Image as      ;; clear current image
+	Calculate oSql as $cinst.$sqlobject
+	Do oSql.$selectfetch(con('SELECT nat_image from naturetable where nat_id=',iNat_ID),iEmptyRow,5) Returns iImageID
+	
+	;  calculate old row for use with update
+	Do iOldRow.$definefromsqlclass('sNature')
+	Do iOldRow.$assigncols(iNat_ID,iNat_Title,iNat_Desc,iNat_Type,iNat_GPS,iNat_Image)
+	
+	Do method $enablebuttons
+	Do $cinst.$objs.DataPane.$currentpage.$assign(2)     ;; show edit/new record pane

@@ -1,0 +1,87 @@
+Calculate oSql as $cinst.$sqlobject
+
+Do oSql.$getlasterrorcode() Returns lErrorCode
+If lErrorCode<>0     ;; sql error occurred, show message
+	Do oSql.$getlasterrortext() Returns lErrorText
+	Do $cinst.$showmessage(lErrorText,'SQL Error')
+	Quit method
+End If
+
+If pID=iSelectDataID     ;; populate datagrid with results of selectfetch
+	Do iDatalist.$merge(pList,kFalse,kFalse,kTrue)
+	Do method $enablebuttons
+	;  Do $cinst.$showmessage(con(iDatalist.$linecount,' record(s) fetched'),'Local Database')     ;; debug message
+End If
+
+If pID=iImageID     ;; image of record about to be edited returned
+	Calculate iNat_Image as pList.1.1
+End If
+
+If pID=iInsertID     ;; new record inserted, get last primary key generated  // last_insert_rowid()
+	Do oSql.$selectfetch("SELECT max(nat_id) from naturetable",iEmptyRow,1) Returns iSelectLastID
+End If
+
+If pID=iSelectLastID     ;; update local list after successful insert
+	Calculate iNat_ID as pList.1.1
+	
+	Do iDatalist.$add(iNat_ID,iNat_Title,iNat_GPS,iNat_Desc,iNat_Type)
+	Do iDatalist.$line.$assign(iDatalist.$linecount)
+	
+	Do iOldRow.$definefromsqlclass('sNature')
+	Do iOldRow.$assigncols(iNat_ID,iNat_Title,iNat_Desc,iNat_Type,iNat_GPS,iNat_Image)
+	
+	Do $cinst.$showmessage(con('Record ',iNat_ID,' Inserted.'),'Local Database')
+	Calculate iMode as 1
+	Do method $enablebuttons
+	Do $cinst.$clientcommand("lockui",row())     ;; unlock ui
+End If
+
+If pID=iUpdateID     ;; update local list after successful update
+	Do iDatalist.$assigncols(iNat_ID,iNat_Title,iNat_GPS,iNat_Desc,iNat_Type)
+	
+	Do iOldRow.$definefromsqlclass('sNature')
+	Do iOldRow.$assigncols(iNat_ID,iNat_Title,iNat_Desc,iNat_Type,iNat_GPS,iNat_Image)
+	
+	Do $cinst.$showmessage(con('Record ',iNat_ID,' Updated'),'Local Database')
+	Do $cinst.$clientcommand("lockui",row())     ;; unlock ui
+End If
+
+If pID=iDeleteID     ;; update local list after delete
+	Do iDatalist.$remove(iDatalist.$line)
+	Calculate iNat_ID as 0
+	Calculate iNat_Title as
+	Calculate iNat_Desc as ''
+	Calculate iNat_GPS as ''
+	Calculate iNat_Type as ''
+	Calculate iNat_Image as
+	
+	Do iOldRow.$clear()
+	
+	Do $cinst.$showmessage('Record Deleted','Local Database')
+	Do iDatalist.$line.$assign(0)
+	Do method $enablebuttons
+	Do $cinst.$clientcommand("lockui",row())     ;; unlock ui
+End If
+
+If pID=iSelectCacheID     ;; local sql cache returned for display
+	If pList.$linecount>0
+		Calculate iCacheList as pList
+	Else
+		Do iCacheList.$clear()
+	End If
+End If
+
+If pID=iSelectTablesID     ;; list of local tables returned for display
+	Calculate iTableList as pList
+	If iTableList.$linecount=0
+		Calculate lCreateNames as 'Create Table naturetable (nat_id INTEGER  PRIMARY KEY,nat_title CHAR(1000) ,nat_desc CHAR(2000) ,nat_type CHAR(100) ,nat_gps CHAR(100) ,nat_image BINARY)'
+		Do oSql.$execute(lCreateNames) Returns iCreateTableID
+	Else
+		Do method $getdata
+	End If
+End If
+
+If pID=iCreateTableID
+	;  Do $cinst.$showmessage('table','created')     ;; debug message
+	Do method $enablebuttons
+End If

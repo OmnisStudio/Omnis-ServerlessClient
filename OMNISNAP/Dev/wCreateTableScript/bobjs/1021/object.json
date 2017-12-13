@@ -1,0 +1,27 @@
+{
+	"ident": 1021,
+	"order": 16386,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kLeftJst",
+		"backcolor": "kColorBackFill",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFnone",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 19,
+		"left": 10,
+		"objlink": 0,
+		"text": "Create table script",
+		"textcolor": "kColorWindowText",
+		"top": 40,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 120
+	}
+}

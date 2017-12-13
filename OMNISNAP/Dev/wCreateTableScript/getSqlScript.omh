@@ -1,0 +1,7 @@
+Do iSchemaList.$loadcols()
+
+Set reference lSessRef to $sessions.OMNISNAP.$sessionobject
+Do lRow.$definefromsqlclass(iSchemaName)
+Do lSessRef.$createnames(lRow,kTrue,kTrue) Returns lCreateNames
+Calculate iSqlScript as con('Create Table ',iTableName,' (',lCreateNames,')')
+Do $cinst.$redraw()

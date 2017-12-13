@@ -1,0 +1,19 @@
+{
+	"classtype": "kQuery",
+	"internalversion": 3,
+	"nextident": 32006,
+	"properties": {
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2017-12-13 10:50:16",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"extraquerytext": "",
+		"moddate": "2013-09-11 14:37:49",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": "1"
+	}
+}

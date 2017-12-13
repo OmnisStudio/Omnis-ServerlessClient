@@ -1,0 +1,8 @@
+On evClick
+	Do $cinst.$clientcommand("lockui",row(kTrue))
+	
+	Do iOldRow.$definefromsqlclass('sNature')
+	Do iOldRow.$assigncols(iDatalist.C1)     ;; delete only requires primary key bind variable
+	
+	Calculate oSql as $cinst.$sqlobject
+	Do oSql.$delete($clib.$schemas.sNature.$delete,iOldRow) Returns iDeleteID

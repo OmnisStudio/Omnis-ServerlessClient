@@ -1,0 +1,20 @@
+[
+	{
+		"name": "$event",
+		"ident": 0,
+		"order": 1,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "oSql",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	}
+]

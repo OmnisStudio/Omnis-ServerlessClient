@@ -1,0 +1,269 @@
+{
+	"classtype": "kSystemtable",
+	"internalversion": 4,
+	"nextident": 4,
+	"properties": {
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2017-12-13 10:49:53",
+		"desc": "",
+		"external": false,
+		"moddate": "2017-12-13 10:50:28",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": "1"
+	},
+	"styles": [
+		{
+			"name": "CtrlLabel",
+			"ident": 1,
+			"properties": {
+				"desc": "Standard Background Label Object",
+				"hasalign": false,
+				"hasbackcolor": false,
+				"hasbackgroundtheme": false,
+				"hasbackpattern": true,
+				"hasbordercolor": false,
+				"haseffect": false,
+				"hasfontname": true,
+				"hasfontsize": true,
+				"hasfontstyle": true,
+				"hasforecolor": false,
+				"hastextcolor": true
+			},
+			"platforms": [
+				{
+					"name": "kMSWindows",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeNone",
+						"backpattern": 15,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderNone",
+						"fontname": "Omnis Windows System",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				},
+				{
+					"name": "kUnix",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeNone",
+						"backpattern": 15,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderNone",
+						"fontname": "-adobe-helvetica",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				},
+				{
+					"name": "kmacOS",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeNone",
+						"backpattern": 15,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderNone",
+						"fontname": "ThemeLabel",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				},
+				{
+					"name": "kJavaScript",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeNone",
+						"backpattern": 15,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderNone",
+						"fontname": "Omnis Windows System",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				}
+			]
+		},
+		{
+			"name": "CtrlEditText",
+			"ident": 2,
+			"properties": {
+				"desc": "Standard Edit Text Object",
+				"hasalign": false,
+				"hasbackcolor": false,
+				"hasbackgroundtheme": true,
+				"hasbackpattern": false,
+				"hasbordercolor": false,
+				"haseffect": true,
+				"hasfontname": true,
+				"hasfontsize": true,
+				"hasfontstyle": true,
+				"hasforecolor": false,
+				"hastextcolor": true
+			},
+			"platforms": [
+				{
+					"name": "kMSWindows",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeControl",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderCtrlEdit",
+						"fontname": "Omnis Windows System",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				},
+				{
+					"name": "kUnix",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeControl",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderCtrlEdit",
+						"fontname": "-adobe-helvetica",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				},
+				{
+					"name": "kmacOS",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeControl",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderCtrlEdit",
+						"fontname": "ThemeSmallSystem",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "RGB(0,0,0)"
+					}
+				},
+				{
+					"name": "kJavaScript",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeControl",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderNone",
+						"fontname": "Omnis Windows System",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				}
+			]
+		},
+		{
+			"name": "CtrlDropdownList",
+			"ident": 3,
+			"properties": {
+				"desc": "Standard Dropdown List Object",
+				"hasalign": false,
+				"hasbackcolor": false,
+				"hasbackgroundtheme": true,
+				"hasbackpattern": false,
+				"hasbordercolor": false,
+				"haseffect": true,
+				"hasfontname": true,
+				"hasfontsize": true,
+				"hasfontstyle": true,
+				"hasforecolor": false,
+				"hastextcolor": true
+			},
+			"platforms": [
+				{
+					"name": "kMSWindows",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeControl",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderCtrlDropList",
+						"fontname": "Omnis Windows System",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				},
+				{
+					"name": "kUnix",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeControl",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderCtrlEdit",
+						"fontname": "-adobe-helvetica",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				},
+				{
+					"name": "kmacOS",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeControl",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderCtrlDropList",
+						"fontname": "ThemeSmallSystem",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "RGB(0,0,0)"
+					}
+				},
+				{
+					"name": "kJavaScript",
+					"properties": {
+						"align": "kLeftJst",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeControl",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderNone",
+						"fontname": "Omnis Windows System",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "kColorWindowText"
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+On evClick
+	Do iSqlRow.$update(iOldRow) Returns lReturnFlag
+	If lReturnFlag
+		Calculate iOldRow as iSqlRow
+	End If

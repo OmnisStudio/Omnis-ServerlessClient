@@ -1,0 +1,3 @@
+On evClick
+	Do iDatalist.$line.$assign(pVertCell)
+	Do method $enablebuttons

@@ -1,0 +1,20 @@
+{
+	"classtype": "kSchema",
+	"internalversion": 3,
+	"nextident": 32011,
+	"properties": {
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2017-12-13 10:50:15",
+		"createinstancewhensubtype": true,
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"moddate": "2013-09-11 15:05:39",
+		"servertablename": "naturetable",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": "1"
+	}
+}

@@ -1,0 +1,4 @@
+;  check table naturetable exists in local database, if not create it in $sqldone else fetch data
+
+Calculate oSql as $cinst.$sqlobject
+Do oSql.$selecttables() Returns iSelectTablesID

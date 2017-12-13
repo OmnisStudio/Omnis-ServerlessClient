@@ -1,0 +1,15 @@
+On evClick
+	Do $cinst.$clientcommand("lockui",row(kTrue))
+	Calculate oSql as $cinst.$sqlobject
+	
+	If iMode=1     ;; Update
+		Do lNewRow.$definefromsqlclass('sNature')
+		Do lNewRow.$assigncols(iNat_ID,iNat_Title,iNat_Desc,iNat_Type,iNat_GPS,iNat_Image)
+		
+		Do oSql.$update($clib.$schemas.sNature.$update,lNewRow,iOldRow) Returns iUpdateID
+	Else     ;; Insert
+		Do lRow.$definefromsqlclass('sNature')
+		;  Calculate iNat_ID as #NULL
+		Do lRow.$assigncols(#NULL,iNat_Title,iNat_Desc,iNat_Type,iNat_GPS,iNat_Image)
+		Do oSql.$insert($clib.$schemas.sNature.$insert,lRow) Returns iInsertID
+	End If

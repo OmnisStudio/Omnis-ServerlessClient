@@ -1,0 +1,7 @@
+Calculate iAboutOpen as kFalse
+Do $cinst.$beginanimations(500,kJSAnimationCurveEaseOut)
+Do $cinst.$objs.subForm.$alpha.$assign(0)
+Do $cinst.$objs.subForm.$visible.$assign(kFalse)
+Do $cinst.$commitanimations()
+
+Do method $enablebuttons

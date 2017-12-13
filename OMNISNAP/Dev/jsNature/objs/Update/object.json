@@ -1,0 +1,53 @@
+{
+	"ident": 1007,
+	"order": 7,
+	"objtype": "kComponent",
+	"componentlib": "jsButton",
+	"componentctrl": "Button Control",
+	"properties": {
+		"::vertical": false,
+		"align": "kCenterJst",
+		"alpha": 255,
+		"bordercolor": "kColorDefault",
+		"buttonalpha": 255,
+		"buttonbackiconid": 0,
+		"buttonborderradius": 0,
+		"buttoncolor": "kColorDefault",
+		"contextmenu": "",
+		"cssclassname": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": false,
+		"dropmode": "kAcceptNone",
+		"enabled": true,
+		"events": "evClick",
+		"fieldstyle": "",
+		"font": 1,
+		"fontsize": 10,
+		"fontstyle": "kPlain",
+		"iconid": 0,
+		"objlink": 0,
+		"preventlayoutanimation": false,
+		"text": "Update",
+		"textbeforeicon": false,
+		"textcolor": "kColorWindowText",
+		"textishtml": false,
+		"tooltip": "",
+		"userinfo": "",
+		"visible": true
+	},
+	"screensizes": [
+		{
+			"name": "kSSZDesktop",
+			"left": 460,
+			"top": 60,
+			"width": 120,
+			"height": 30,
+			"edgefloat": "kEFnone",
+			"dragborder": false,
+			"errortextpos": "kJSErrorTextPosUnder"
+		}
+	]
+}

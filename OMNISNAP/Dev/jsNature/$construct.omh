@@ -1,0 +1,15 @@
+Do iJSFileRow.$define(iJSFileMimeList,iJSFileBinVarName)
+Do iJSFileRow.$assigncols(,'tJSFileBinData')
+
+Calculate lSessionName as 'omnisnap'
+
+If $root.$sessions.[lSessionName]
+	Do iSqlRow.$definefromsqlclass('sNature')
+	Do iSqlRow.$sessionobject.$assign($root.$sessions.[lSessionName].$sessionobject) Returns #F
+	Do iSqlRow.$select() Returns #F
+	If flag false
+		Do $cinst.$showmessage(con(iSqlRow.$statementobject.$nativeerrorcode,' - ',iSqlRow.$statementobject.$nativeerrortext),'SQL Error')
+	End If
+Else
+	Do $cinst.$showmessage(con('Session ',chr(39),lSessionName,chr(39),' does not exist.'),'SQL Error')
+End If

@@ -1,0 +1,5 @@
+On evPhotoReturned,evImageReturned
+	Calculate iNat_Image as iDeviceImage
+	
+On evGpsReturned
+	Calculate iNat_GPS as pDeviceGps

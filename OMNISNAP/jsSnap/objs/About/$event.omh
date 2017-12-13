@@ -1,0 +1,13 @@
+On evClick
+	Calculate iAboutOpen as kTrue
+	Do $cinst.$objs.subForm.$classname.$assign("jsAbout")
+	Do $cinst.$objs.subForm.$visible.$assign(kTrue)
+	
+	Do $cinst.$objs.subForm.$top.$assign(iAboutTop)
+	Do $cinst.$objs.subForm.$left.$assign(iAboutLeft)
+	
+	Do $cinst.$beginanimations(500,kJSAnimationCurveEaseIn)
+	Do $cinst.$objs.subForm.$alpha.$assign(255)
+	Do $cinst.$commitanimations()
+	
+	Do method $enablebuttons (kFalse)

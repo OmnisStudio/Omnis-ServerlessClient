@@ -1,0 +1,77 @@
+{
+	"classtype": "kRemoteForm",
+	"internalversion": 3,
+	"designtaskname": "rtMyTask",
+	"nextident": 1005,
+	"lastgroupident": 0,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iAboutText",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		}
+	],
+	"properties": {
+		"aligntogrid": false,
+		"alpha": 255,
+		"alwaysenabledobject": "",
+		"animatelayouttransitions": false,
+		"backalpha": 255,
+		"backcolor": "kWhite",
+		"backpattern": 35,
+		"cancelkeyobject": "",
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"contextmenu": "",
+		"createdate": "2017-12-13 10:50:18",
+		"currentlayoutbreakpoint": 260,
+		"defaultappearance": "kAppearanceiOS",
+		"desc": "",
+		"designshowmobiletitle": true,
+		"disabledefaultcontextmenu": false,
+		"editor": "",
+		"editordata": "",
+		"events": "",
+		"external": true,
+		"forecolor": "RGB(4,200,130)",
+		"horzgrid": 8,
+		"horzscroll": false,
+		"inheritedorder": 1,
+		"issupercomponent": false,
+		"layoutbreakpoints": "260,470",
+		"layouttype": "kLayoutTypeResponsive",
+		"left": 432,
+		"moddate": "2017-12-13 10:02:03",
+		"okkeyobject": "",
+		"serverlessclient": true,
+		"showascheckedout": false,
+		"showgrid": false,
+		"sizetogrid": false,
+		"startfield": 0,
+		"title": {
+			"type": 0,
+			"calc": "New remote form"
+		},
+		"top": 292,
+		"userinfo": "",
+		"version": "1",
+		"vertgrid": 8,
+		"vertscroll": false
+	},
+	"layout": {
+		"width": 561,
+		"height": 457,
+		"260": {
+			"height": 260
+		},
+		"470": {
+			"height": 400
+		}
+	}
+}

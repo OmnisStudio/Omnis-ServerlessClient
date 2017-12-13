@@ -1,0 +1,39 @@
+[
+	{
+		"name": "$construct",
+		"ident": 0,
+		"order": 1,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		],
+		"empty": true
+	},
+	{
+		"name": "$destruct",
+		"ident": 1,
+		"order": 2,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$init",
+		"ident": 2,
+		"order": 3,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

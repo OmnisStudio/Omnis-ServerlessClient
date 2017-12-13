@@ -1,0 +1,143 @@
+{
+	"classtype": "kRemoteForm",
+	"internalversion": 3,
+	"designtaskname": "rtMyTask",
+	"nextident": 1019,
+	"lastgroupident": 0,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iJSFileBinVarName",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 255
+		},
+		{
+			"name": "iJSFileMimeList",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iJSFileRow",
+			"order": 3,
+			"type": "kRow",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iJSFileUploadCol",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 255
+		},
+		{
+			"name": "iOldRow",
+			"order": 2,
+			"type": "kRow",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iSqlRow",
+			"order": 1,
+			"type": "kRow",
+			"subtype": "",
+			"sublen": 0
+		}
+	],
+	"properties": {
+		"aligntogrid": false,
+		"alpha": 255,
+		"alwaysenabledobject": "",
+		"animatelayouttransitions": false,
+		"backalpha": 255,
+		"backcolor": "RGB(255,255,255)",
+		"backpattern": 0,
+		"cancelkeyobject": "",
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"contextmenu": "",
+		"createdate": "2017-12-13 10:50:21",
+		"defaultappearance": "kAppearanceiOS",
+		"desc": "",
+		"designshowmobiletitle": true,
+		"disabledefaultcontextmenu": false,
+		"editor": "",
+		"editordata": "",
+		"events": "",
+		"external": true,
+		"forecolor": "RGB(255,255,255)",
+		"horzgrid": 8,
+		"horzscroll": false,
+		"inheritedorder": 1,
+		"issupercomponent": false,
+		"layouttype": "kLayoutTypeSingle",
+		"left": 376,
+		"moddate": "2017-12-13 10:42:50",
+		"okkeyobject": "",
+		"resizemode": "kJSformResizeModeNone",
+		"serverlessclient": false,
+		"showascheckedout": false,
+		"showgrid": false,
+		"sizetogrid": false,
+		"startfield": 0,
+		"title": {
+			"type": 0,
+			"calc": "New remote form"
+		},
+		"top": 114,
+		"userinfo": "",
+		"version": "1",
+		"vertgrid": 8,
+		"vertscroll": false
+	},
+	"screensizes": [
+		{
+			"name": "kSSZDesktop",
+			"width": 650,
+			"height": 550
+		},
+		{
+			"name": "kSSZjs320x480Portrait",
+			"width": 320,
+			"height": 460
+		},
+		{
+			"name": "kSSZjs320x480Landscape",
+			"width": 480,
+			"height": 300
+		},
+		{
+			"name": "kSSZjs768x1024Portrait",
+			"width": 768,
+			"height": 1004
+		},
+		{
+			"name": "kSSZjs768x1024Landscape",
+			"width": 1024,
+			"height": 748
+		},
+		{
+			"name": "kSSZjs345x345",
+			"width": 345,
+			"height": 325
+		},
+		{
+			"name": "kSSZjs360x640Portrait",
+			"width": 360,
+			"height": 620
+		},
+		{
+			"name": "kSSZjs360x640Landscape",
+			"width": 640,
+			"height": 340
+		}
+	]
+}

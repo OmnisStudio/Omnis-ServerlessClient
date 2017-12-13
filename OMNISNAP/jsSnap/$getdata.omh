@@ -1,0 +1,4 @@
+Calculate oSql as $cinst.$sqlobject
+Do lRow.$definefromsqlclass('qNature')
+
+Do oSql.$selectfetch($clib.$queries.qNature.$select,lRow,kFetchAll) Returns iSelectDataID

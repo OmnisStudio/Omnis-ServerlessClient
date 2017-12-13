@@ -1,0 +1,13 @@
+On evLayoutChanged
+	;  set column widths for data grid and about box depending on layout breakpoint
+	Switch pBreakpoint
+		Case '320'
+			Do $cinst.$objs.DataList.$::columnwidths.$assign('80,220,150,150,1000')
+			Calculate iAboutTop as 100
+			Calculate iAboutLeft as 30
+			
+		Case '768'
+			Do $cinst.$objs.DataList.$::columnwidths.$assign('80,350,150,150,1000')
+			Calculate iAboutTop as 200
+			Calculate iAboutLeft as 150
+	End Switch

@@ -1,0 +1,14 @@
+On evClick
+	Calculate iMode as 2     ;; New
+	
+	Calculate iNat_ID as 0
+	Calculate iNat_Title as
+	Calculate iNat_Desc as ''
+	Calculate iNat_Type as ''
+	Do $cinst.$objs.Device.$action.$assign(kJSDeviceActionGetGps)     ;; calculate iNat_GPS
+	Calculate iNat_Image as
+	
+	Do iOldRow.$clear()
+	
+	Do method $enablebuttons
+	Do $cinst.$objs.DataPane.$currentpage.$assign(2)     ;; show edit/new record pane

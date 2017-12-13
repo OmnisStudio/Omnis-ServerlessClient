@@ -1,0 +1,7 @@
+;  Enter your initialization code here
+
+Do iSchemaList.$define(iSchemaName,iTableName)
+Do iSchemaList.$merge($clib.$schemas.$makelist($ref.$name,$ref.$servertablename))
+
+Do iSchemaList.$line.$assign(1)
+Do method getSqlScript

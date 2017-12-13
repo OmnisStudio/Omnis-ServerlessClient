@@ -1,0 +1,57 @@
+[
+	{
+		"ident": 32001,
+		"order": 1,
+		"properties": {
+			"alias": "",
+			"colname": "nat_id",
+			"desc": "",
+			"schema": "sNature",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32002,
+		"order": 2,
+		"properties": {
+			"alias": "",
+			"colname": "nat_title",
+			"desc": "",
+			"schema": "sNature",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32003,
+		"order": 3,
+		"properties": {
+			"alias": "",
+			"colname": "nat_gps",
+			"desc": "",
+			"schema": "sNature",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32004,
+		"order": 4,
+		"properties": {
+			"alias": "",
+			"colname": "nat_desc",
+			"desc": "",
+			"schema": "sNature",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32005,
+		"order": 5,
+		"properties": {
+			"alias": "",
+			"colname": "nat_type",
+			"desc": "",
+			"schema": "sNature",
+			"userinfo": ""
+		}
+	}
+]
