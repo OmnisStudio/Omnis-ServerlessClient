@@ -1,4 +1,4 @@
-# Omnis-ServelessClient
+# Omnis-ServerlessClient
 For Omnis Studio 8.1.1 and above (serialised with a serverless serial number).
 Also requires Javascript wrapper available from http://www.omnis.net/download/jswrapper.jsp.
 
