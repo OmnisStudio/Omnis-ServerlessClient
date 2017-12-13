@@ -24,7 +24,7 @@ A sqlite database containing sample data used by OmniSnap for internal storage o
 
 ## Wrapper Setup
 
-- Add omnisnapdata.db to your wrapper resources.
+- Add omnisnapdata.db to your wrapper resources folder for iOS or assets folder for Android.
 
 - Configure your wrapper (config.xml) with the following settings:
 
