@@ -29,7 +29,7 @@
 		"helpfoldername": "",
 		"hscale": 0,
 		"iconlib": "",
-		"iconset": "",
+		"iconset": "omnisnap",
 		"initiallayoutbreakpoints": "320,768,1024",
 		"javareturnsnative": true,
 		"justifiedtextthreshold": 75,
