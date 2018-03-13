@@ -40,10 +40,10 @@
 			"visible": true
 		},
 		"768": {
-			"left": 789,
-			"top": 395,
+			"left": 774,
+			"top": 0,
 			"width": 470,
-			"height": 400,
+			"height": 295,
 			"dragborder": false,
 			"edgefloat": "kEFrightBottom",
 			"errortextpos": "kJSErrorTextPosUnder",

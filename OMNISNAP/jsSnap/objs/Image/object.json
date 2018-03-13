@@ -53,12 +53,12 @@
 			"visible": true
 		},
 		"768": {
-			"left": 115,
-			"top": 290,
+			"left": 112,
+			"top": 288,
 			"width": 610,
-			"height": 457,
+			"height": 144,
 			"dragborder": false,
-			"edgefloat": "kEFrightTopBottom",
+			"edgefloat": "kEFrightBottom",
 			"errortextpos": "kJSErrorTextPosUnder",
 			"visible": true
 		}

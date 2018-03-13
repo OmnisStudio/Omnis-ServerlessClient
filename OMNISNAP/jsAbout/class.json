@@ -1,6 +1,6 @@
 {
 	"classtype": "kRemoteForm",
-	"internalversion": 3,
+	"internalversion": 44,
 	"designtaskname": "rtMyTask",
 	"nextident": 1005,
 	"lastgroupident": 0,
@@ -47,7 +47,7 @@
 		"layoutbreakpoints": "260,470",
 		"layouttype": "kLayoutTypeResponsive",
 		"left": 432,
-		"moddate": "2017-12-13 10:02:03",
+		"moddate": "2018-03-13 12:45:11",
 		"okkeyobject": "",
 		"serverlessclient": true,
 		"showascheckedout": false,
@@ -71,7 +71,7 @@
 			"height": 260
 		},
 		"470": {
-			"height": 400
+			"height": 320
 		}
 	}
 }
